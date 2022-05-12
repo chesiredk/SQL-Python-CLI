@@ -1,5 +1,4 @@
 # School file
-class School():
     import mysql.connector
 
     print("Connecting to db_class database in mySQL.....")
@@ -87,5 +86,3 @@ class School():
 
     myCursor.close()
     dbms.close()
-
-school = School()
