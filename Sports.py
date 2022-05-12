@@ -1,4 +1,4 @@
-class Sports():
+
     # Sports file
     import mysql.connector
 
@@ -82,5 +82,3 @@ class Sports():
 
     myCursor.close()
     dbms.close()
-
-sports = Sports()
